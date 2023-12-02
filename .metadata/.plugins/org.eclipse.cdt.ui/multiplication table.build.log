@@ -1,0 +1,21 @@
+13:44:59 **** Incremental Build of configuration Debug for project multiplication table ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiplication table.o" "..\\src\\multiplication table.c" 
+..\src\multiplication table.c: In function 'main':
+..\src\multiplication table.c:21:11: error: expected ')' before string constant
+   printf(i"/n");
+           ^~~~
+           )
+..\src\multiplication table.c:21:10: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   printf(i"/n");
+          ^
+In file included from ..\src\multiplication table.c:11:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h:509:48: note: expected 'const char * restrict' but argument is of type 'int'
+   int __cdecl printf(const char * __restrict__ _Format,...);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+..\src\multiplication table.c:15:10: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  int n,i,r=0;
+          ^
+
+13:44:59 Build Failed. 1 errors, 2 warnings. (took 314ms)
+

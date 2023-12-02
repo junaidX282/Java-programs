@@ -1,0 +1,12 @@
+10:05:42 **** Incremental Build of configuration Debug for project abc ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\abc.o" "..\\src\\abc.c" 
+..\src\abc.c:30:2: error: expected identifier or '(' before 'return'
+  return EXIT_SUCCESS;
+  ^~~~~~
+..\src\abc.c:31:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+
+10:05:43 Build Failed. 2 errors, 0 warnings. (took 405ms)
+

@@ -1,0 +1,7 @@
+08:30:06 **** Incremental Build of configuration Debug for project reverse star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse star.o" "..\\src\\reverse star.c" 
+gcc -o "reverse star.exe" "src\\reverse star.o" 
+
+08:30:07 Build Finished. 0 errors, 0 warnings. (took 680ms)
+

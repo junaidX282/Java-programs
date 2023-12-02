@@ -1,0 +1,26 @@
+07:57:32 **** Incremental Build of configuration Debug for project fnNew ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fnNew.o" "..\\src\\fnNew.c" 
+..\src\fnNew.c: In function 'main':
+..\src\fnNew.c:18:12: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+  scanf("%d%d",&size);
+           ~^
+..\src\fnNew.c:18:12: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+..\src\fnNew.c:24:2: warning: implicit declaration of function 'getArray'; did you mean 'Array'? [-Wimplicit-function-declaration]
+  getArray();
+  ^~~~~~~~
+  Array
+..\src\fnNew.c: At top level:
+..\src\fnNew.c:29:6: error: conflicting types for 'Array'
+ void Array(int num[]){
+      ^~~~~
+..\src\fnNew.c:13:6: note: previous declaration of 'Array' was here
+ void Array(int);
+      ^~~~~
+..\src\fnNew.c: In function 'Array':
+..\src\fnNew.c:34:19: error: expected expression before ']' token
+   printf("%d",num[]);
+                   ^
+
+07:57:33 Build Failed. 2 errors, 3 warnings. (took 176ms)
+

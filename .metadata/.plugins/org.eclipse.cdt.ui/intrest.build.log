@@ -1,0 +1,9 @@
+09:07:17 **** Incremental Build of configuration Debug for project intrest ****
+Info: Internal Builder is used for build
+gcc -o intrest.exe "src\\intrest.o" 
+src\intrest.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\intrest\Debug/../src/intrest.c:17: undefined reference to `pintf'
+collect2.exe: error: ld returned 1 exit status
+
+09:07:17 Build Failed. 1 errors, 0 warnings. (took 197ms)
+

@@ -1,0 +1,9 @@
+15:04:14 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -o array.exe "src\\array.o" 
+src\array.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\array\Debug/../src/array.c:17: undefined reference to `setubf'
+collect2.exe: error: ld returned 1 exit status
+
+15:04:14 Build Failed. 1 errors, 0 warnings. (took 326ms)
+

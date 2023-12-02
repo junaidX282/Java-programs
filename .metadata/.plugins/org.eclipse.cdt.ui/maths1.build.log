@@ -1,0 +1,25 @@
+17:50:38 **** Incremental Build of configuration Debug for project maths1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maths1.o" "..\\src\\maths1.c" 
+..\src\maths1.c: In function 'main':
+..\src\maths1.c:18:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&n);
+        ~~~~^
+..\src\maths1.c:21:11: error: lvalue required as left operand of assignment
+        i*n=m;
+           ^
+..\src\maths1.c:22:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+        printf("%d,i * n =%d,m");
+                ~^
+..\src\maths1.c:22:27: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+        printf("%d,i * n =%d,m");
+                          ~^
+..\src\maths1.c:22:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+        printf("%d,i * n =%d,m");
+                ~^
+..\src\maths1.c:22:27: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+        printf("%d,i * n =%d,m");
+                          ~^
+
+17:50:39 Build Failed. 2 errors, 4 warnings. (took 335ms)
+

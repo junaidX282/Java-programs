@@ -1,0 +1,10 @@
+11:19:45 **** Incremental Build of configuration Debug for project mul table ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mul table.o" "..\\src\\mul table.c" 
+..\src\mul table.c: In function 'main':
+..\src\mul table.c:18:6: error: lvalue required as left operand of assignment
+   i*n=r;
+      ^
+
+11:19:45 Build Failed. 1 errors, 0 warnings. (took 161ms)
+

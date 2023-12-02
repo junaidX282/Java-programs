@@ -1,0 +1,7 @@
+10:03:39 **** Incremental Build of configuration Debug for project even no in array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\even no in array.o" "..\\src\\even no in array.c" 
+gcc -o "even no in array.exe" "src\\even no in array.o" 
+
+10:03:40 Build Finished. 0 errors, 0 warnings. (took 687ms)
+

@@ -1,0 +1,2036 @@
+11:31:03 **** Incremental Build of configuration Debug for project multiple ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiple.o" "..\\src\\multiple.c" 
+gcc -o multiple.exe "src\\multiple.o" 
+Info: Nothing to build for multiple
+11:31:27 **** Incremental Build of configuration Debug for project multiple ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiple.o" "..\\src\\multiple.c" 
+gcc -o multiple.exe "src\\multiple.o" 
+10:30:28 **** Rebuild of configuration Debug for project multiple ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiple.o" "..\\src\\multiple.c" 
+gcc -o multiple.exe "src\\multiple.o" 
+10:31:07 **** Rebuild of configuration Debug for project mark ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mark.o" "..\\src\\mark.c" 
+gcc -o mark.exe "src\\mark.o" 
+Info: Nothing to build for mark
+10:46:47 **** Rebuild of configuration Debug for project display name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\display name.o" "..\\src\\display name.c" 
+..\src\display name.c: In function 'main':
+..\src\display name.c:18:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+  scanf("%s",&a);
+         ~^  ~~
+..\src\display name.c:18:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+gcc -o "display name.exe" "src\\display name.o" 
+10:47:13 **** Incremental Build of configuration Debug for project display name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\display name.o" "..\\src\\display name.c" 
+..\src\display name.c: In function 'main':
+..\src\display name.c:18:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+  scanf("%s",&a);
+         ~^  ~~
+..\src\display name.c:18:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+gcc -o "display name.exe" "src\\display name.o" 
+10:51:48 **** Rebuild of configuration Debug for project sumassignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sumassignment.o" "..\\src\\sumassignment.c" 
+gcc -o sumassignment.exe "src\\sumassignment.o" 
+Info: Nothing to build for sumassignment
+10:52:44 **** Incremental Build of configuration Debug for project sumassignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sumassignment.o" "..\\src\\sumassignment.c" 
+..\src\sumassignment.c: In function 'main':
+..\src\sumassignment.c:19:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d %f",&num1,&num2);
+         ~^     ~~~~~
+         %e
+..\src\sumassignment.c:19:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d %f",&num1,&num2);
+         ~^     ~~~~~
+         %e
+gcc -o sumassignment.exe "src\\sumassignment.o" 
+10:53:01 **** Incremental Build of configuration Debug for project sumassignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sumassignment.o" "..\\src\\sumassignment.c" 
+gcc -o sumassignment.exe "src\\sumassignment.o" 
+10:53:39 **** Rebuild of configuration Debug for project abcd ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\abcd.o" "..\\src\\abcd.c" 
+gcc -o abcd.exe "src\\abcd.o" 
+Info: Nothing to build for abcd
+Info: Nothing to build for mark
+Info: Nothing to build for mark
+Info: Nothing to build for multiple
+10:59:52 **** Rebuild of configuration Debug for project if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.c" 
+gcc -o if.exe "src\\if.o" 
+11:00:00 **** Incremental Build of configuration Debug for project if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.c" 
+gcc -o if.exe "src\\if.o" 
+11:07:16 **** Incremental Build of configuration Debug for project if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.c" 
+..\src\if.c: In function 'main':
+..\src\if.c:20:11: error: invalid operands to binary & (have 'char *' and 'int')
+  puts("a="&a); /* prints !!!Hello World!!! */
+       ~~~~^
+11:07:41 **** Incremental Build of configuration Debug for project if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.c" 
+..\src\if.c: In function 'main':
+..\src\if.c:20:11: error: invalid operands to binary & (have 'char *' and 'int')
+  puts("a="&a); /* prints !!!Hello World!!! */
+       ~~~~^
+11:08:56 **** Incremental Build of configuration Debug for project if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.c" 
+..\src\if.c: In function 'main':
+..\src\if.c:20:13: error: expected ')' before 'a'
+  printf("a="a); /* prints !!!Hello World!!! */
+             ^
+             )
+11:09:33 **** Incremental Build of configuration Debug for project if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.c" 
+..\src\if.c: In function 'main':
+..\src\if.c:20:13: error: expected ')' before 'a'
+  printf("a="a); /* prints !!!Hello World!!! */
+             ^
+             )
+11:10:28 **** Incremental Build of configuration Debug for project if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.c" 
+..\src\if.c: In function 'main':
+..\src\if.c:20:13: error: expected ')' before 'a'
+  printf("a="a); /* prints !!!Hello World!!! */
+             ^
+             )
+11:10:32 **** Incremental Build of configuration Debug for project if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\if.o" "..\\src\\if.c" 
+gcc -o if.exe "src\\if.o" 
+11:17:17 **** Rebuild of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o posorneg.exe "src\\posorneg.o" 
+11:17:31 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o posorneg.exe "src\\posorneg.o" 
+Info: Nothing to build for posorneg
+11:18:08 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o posorneg.exe "src\\posorneg.o" 
+Info: Nothing to build for posorneg
+Info: Nothing to build for posorneg
+Info: Nothing to build for posorneg
+11:25:56 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o posorneg.exe "src\\posorneg.o" 
+Info: Nothing to build for posorneg
+11:29:17 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o posorneg.exe "src\\posorneg.o" 
+Info: Nothing to build for posorneg
+11:30:13 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o posorneg.exe "src\\posorneg.o" 
+11:34:02 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+..\src\posorneg.c: In function 'main':
+..\src\posorneg.c:20:6: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(a>b&c){
+     ~^~
+..\src\posorneg.c:23:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  }else if(b>a&c){
+           ~^~
+gcc -o posorneg.exe "src\\posorneg.o" 
+Info: Nothing to build for posorneg
+11:34:56 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o posorneg.exe "src\\posorneg.o" 
+11:36:01 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+..\src\posorneg.c: In function 'main':
+..\src\posorneg.c:20:6: warning: comparison between pointer and integer
+  if(a>&b&c){
+      ^
+..\src\posorneg.c:20:6: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  if(a>&b&c){
+     ~^~~
+..\src\posorneg.c:23:12: warning: comparison between pointer and integer
+  }else if(b>&a&c){
+            ^
+..\src\posorneg.c:23:12: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  }else if(b>&a&c){
+           ~^~~
+gcc -o posorneg.exe "src\\posorneg.o" 
+11:38:15 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o posorneg.exe "src\\posorneg.o" 
+11:39:10 **** Incremental Build of configuration Debug for project posorneg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o posorneg.exe "src\\posorneg.o" 
+Info: Nothing to build for posorneg
+Info: Nothing to build for posorneg
+11:43:33 **** Rebuild of configuration Debug for project graterif ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\posorneg.o" "..\\src\\posorneg.c" 
+gcc -o graterif.exe "src\\posorneg.o" 
+11:48:12 **** Rebuild of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+gcc -o ifcalculation.exe "src\\ifcalculation.o" 
+11:48:20 **** Incremental Build of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+..\src\ifcalculation.c: In function 'main':
+..\src\ifcalculation.c:21:6: error: expected expression before ')' token
+   if()
+      ^
+11:48:31 **** Incremental Build of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+..\src\ifcalculation.c: In function 'main':
+..\src\ifcalculation.c:21:6: error: expected expression before ')' token
+   if()
+      ^
+11:48:39 **** Incremental Build of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+gcc -o ifcalculation.exe "src\\ifcalculation.o" 
+11:49:11 **** Incremental Build of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+gcc -o ifcalculation.exe "src\\ifcalculation.o" 
+11:49:28 **** Incremental Build of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+gcc -o ifcalculation.exe "src\\ifcalculation.o" 
+11:51:06 **** Incremental Build of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+gcc -o ifcalculation.exe "src\\ifcalculation.o" 
+Info: Nothing to build for ifcalculation
+12:00:20 **** Incremental Build of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+..\src\ifcalculation.c: In function 'main':
+..\src\ifcalculation.c:21:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&choice);
+        ~~~~^
+12:01:41 **** Incremental Build of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+gcc -o ifcalculation.exe "src\\ifcalculation.o" 
+Info: Nothing to build for ifcalculation
+Info: Nothing to build for ifcalculation
+Info: Nothing to build for ifcalculation
+Info: Nothing to build for ifcalculation
+Info: Nothing to build for ifcalculation
+13:12:50 **** Rebuild of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+gcc -o ifcalculation.exe "src\\ifcalculation.o" 
+Info: Nothing to build for ifcalculation
+13:25:19 **** Rebuild of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+gcc -o switch.exe "src\\switch.o" 
+13:25:29 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+..\src\switch.c: In function 'main':
+..\src\switch.c:24:2: error: case label not within a switch statement
+  case 2:
+  ^~~~
+..\src\switch.c:28:2: error: case label not within a switch statement
+  case 3:
+  ^~~~
+..\src\switch.c:32:2: error: case label not within a switch statement
+  case 4:
+  ^~~~
+..\src\switch.c:36:2: error: case label not within a switch statement
+  case 5:
+  ^~~~
+..\src\switch.c:39:2: error: 'default' label not within a switch statement
+  default :{
+  ^~~~~~~
+13:25:44 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+..\src\switch.c: In function 'main':
+..\src\switch.c:24:2: error: case label not within a switch statement
+  case 2:
+  ^~~~
+..\src\switch.c:28:2: error: case label not within a switch statement
+  case 3:
+  ^~~~
+..\src\switch.c:32:2: error: case label not within a switch statement
+  case 4:
+  ^~~~
+..\src\switch.c:36:2: error: case label not within a switch statement
+  case 5:
+  ^~~~
+..\src\switch.c:39:2: error: 'default' label not within a switch statement
+  default :{
+  ^~~~~~~
+13:27:12 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+..\src\switch.c: In function 'main':
+..\src\switch.c:24:2: error: case label not within a switch statement
+  case 2:
+  ^~~~
+..\src\switch.c:29:2: error: case label not within a switch statement
+  case 3:
+  ^~~~
+..\src\switch.c:34:2: error: case label not within a switch statement
+  case 4:
+  ^~~~
+..\src\switch.c:38:2: error: case label not within a switch statement
+  case 5:
+  ^~~~
+..\src\switch.c:41:2: error: 'default' label not within a switch statement
+  default :{
+  ^~~~~~~
+13:27:19 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+..\src\switch.c: In function 'main':
+..\src\switch.c:24:2: error: case label not within a switch statement
+  case 2:
+  ^~~~
+..\src\switch.c:29:2: error: case label not within a switch statement
+  case 3:
+  ^~~~
+..\src\switch.c:34:2: error: case label not within a switch statement
+  case 4:
+  ^~~~
+..\src\switch.c:38:2: error: case label not within a switch statement
+  case 5:
+  ^~~~
+..\src\switch.c:41:2: error: 'default' label not within a switch statement
+  default :{
+  ^~~~~~~
+13:28:02 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+..\src\switch.c: In function 'main':
+..\src\switch.c:24:2: error: case label not within a switch statement
+  case 2:
+  ^~~~
+..\src\switch.c:29:2: error: case label not within a switch statement
+  case 3:
+  ^~~~
+..\src\switch.c:34:2: error: case label not within a switch statement
+  case 4:
+  ^~~~
+..\src\switch.c:38:2: error: case label not within a switch statement
+  case 5:
+  ^~~~
+..\src\switch.c:41:2: error: 'default' label not within a switch statement
+  default :{
+  ^~~~~~~
+13:28:11 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+..\src\switch.c: In function 'main':
+..\src\switch.c:24:2: error: case label not within a switch statement
+  case 2:
+  ^~~~
+..\src\switch.c:29:2: error: case label not within a switch statement
+  case 3:
+  ^~~~
+..\src\switch.c:34:2: error: case label not within a switch statement
+  case 4:
+  ^~~~
+..\src\switch.c:38:2: error: case label not within a switch statement
+  case 5:
+  ^~~~
+..\src\switch.c:41:2: error: 'default' label not within a switch statement
+  default :{
+  ^~~~~~~
+13:30:49 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+..\src\switch.c: In function 'main':
+..\src\switch.c:24:2: error: case label not within a switch statement
+  case 2:
+  ^~~~
+..\src\switch.c:29:2: error: case label not within a switch statement
+  case 3:
+  ^~~~
+..\src\switch.c:34:2: error: case label not within a switch statement
+  case 4:
+  ^~~~
+..\src\switch.c:38:2: error: case label not within a switch statement
+  case 5:
+  ^~~~
+..\src\switch.c:41:2: error: 'default' label not within a switch statement
+  default :{
+  ^~~~~~~
+13:32:31 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+..\src\switch.c: In function 'main':
+..\src\switch.c:24:2: error: case label not within a switch statement
+  case 2:
+  ^~~~
+..\src\switch.c:29:2: error: case label not within a switch statement
+  case 3:
+  ^~~~
+..\src\switch.c:34:2: error: case label not within a switch statement
+  case 4:
+  ^~~~
+..\src\switch.c:38:2: error: case label not within a switch statement
+  case 5:
+  ^~~~
+..\src\switch.c:41:2: error: 'default' label not within a switch statement
+  default :{
+  ^~~~~~~
+13:33:10 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+..\src\switch.c: In function 'main':
+..\src\switch.c:24:2: error: case label not within a switch statement
+  case 2:
+  ^~~~
+..\src\switch.c:29:2: error: case label not within a switch statement
+  case 3:
+  ^~~~
+..\src\switch.c:34:2: error: case label not within a switch statement
+  case 4:
+  ^~~~
+..\src\switch.c:38:2: error: case label not within a switch statement
+  case 5:
+  ^~~~
+..\src\switch.c:41:2: error: 'default' label not within a switch statement
+  default :{
+  ^~~~~~~
+13:33:19 **** Incremental Build of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+gcc -o switch.exe "src\\switch.o" 
+Info: Nothing to build for switch
+Info: Nothing to build for switch
+Info: Nothing to build for switch
+13:39:05 **** Rebuild of configuration Debug for project abcd ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\abcd.o" "..\\src\\abcd.c" 
+gcc -o abcd.exe "src\\abcd.o" 
+13:49:43 **** Rebuild of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+13:49:52 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+13:52:27 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+13:54:03 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+13:55:46 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+13:57:08 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+13:58:34 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+14:01:48 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+14:02:28 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+14:02:57 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+14:03:21 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+Info: Nothing to build for gradeassig
+14:05:09 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+14:06:03 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+14:08:50 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+14:09:43 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+14:11:54 **** Incremental Build of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+14:45:14 **** Rebuild of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+14:45:25 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+14:45:46 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+14:46:07 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+14:46:17 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+14:54:53 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+14:55:45 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+..\src\egloop.c: In function 'main':
+..\src\egloop.c:17:2: warning: implicit declaration of function 'prinf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  prinf("enter a number");
+  ^~~~~
+  printf
+gcc -o egloop.exe "src\\egloop.o" 
+src\egloop.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\egloop\Debug/../src/egloop.c:17: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+14:55:53 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -o egloop.exe "src\\egloop.o" 
+src\egloop.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\egloop\Debug/../src/egloop.c:17: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+14:56:04 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -o egloop.exe "src\\egloop.o" 
+src\egloop.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\egloop\Debug/../src/egloop.c:17: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+14:56:14 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -o egloop.exe "src\\egloop.o" 
+src\egloop.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\egloop\Debug/../src/egloop.c:17: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+14:56:21 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+Info: Nothing to build for egloop
+14:56:49 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+15:01:31 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+15:02:53 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+Info: Nothing to build for egloop
+15:07:37 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+..\src\egloop.c: In function 'main':
+..\src\egloop.c:20:6: error: lvalue required as left operand of assignment
+   i/2%=0;
+      ^~
+15:07:49 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+..\src\egloop.c: In function 'main':
+..\src\egloop.c:20:6: error: lvalue required as left operand of assignment
+   i/2%=0;
+      ^~
+15:10:41 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+..\src\egloop.c: In function 'main':
+..\src\egloop.c:20:6: error: lvalue required as left operand of assignment
+   i/2%=0;
+      ^~
+15:11:30 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+..\src\egloop.c: In function 'main':
+..\src\egloop.c:20:6: error: lvalue required as left operand of assignment
+   i/2%=0;
+      ^~
+15:12:36 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+..\src\egloop.c: In function 'main':
+..\src\egloop.c:20:6: error: lvalue required as left operand of assignment
+   i/2%=0;
+      ^~
+15:13:07 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+..\src\egloop.c: In function 'main':
+..\src\egloop.c:15:10: warning: unused variable 'sum' [-Wunused-variable]
+  int i,n,sum=0;
+          ^~~
+gcc -o egloop.exe "src\\egloop.o" 
+Info: Nothing to build for egloop
+15:13:57 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+..\src\egloop.c: In function 'main':
+..\src\egloop.c:15:10: warning: unused variable 'sum' [-Wunused-variable]
+  int i,n,sum=0;
+          ^~~
+gcc -o egloop.exe "src\\egloop.o" 
+15:16:46 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+..\src\egloop.c: In function 'main':
+..\src\egloop.c:24:2: warning: implicit declaration of function 'prinf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  prinf("%d",sum);
+  ^~~~~
+  printf
+gcc -o egloop.exe "src\\egloop.o" 
+src\egloop.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\egloop\Debug/../src/egloop.c:24: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+15:17:00 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+Info: Nothing to build for egloop
+Info: Nothing to build for egloop
+Info: Nothing to build for egloop
+15:17:58 **** Incremental Build of configuration Debug for project egloop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\egloop.o" "..\\src\\egloop.c" 
+gcc -o egloop.exe "src\\egloop.o" 
+Info: Nothing to build for egloop
+09:27:53 **** Rebuild of configuration Debug for project primeornot ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primeornot.o" "..\\src\\primeornot.c" 
+gcc -o primeornot.exe "src\\primeornot.o" 
+09:28:07 **** Incremental Build of configuration Debug for project primeornot ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primeornot.o" "..\\src\\primeornot.c" 
+gcc -o primeornot.exe "src\\primeornot.o" 
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+09:34:43 **** Incremental Build of configuration Debug for project primeornot ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primeornot.o" "..\\src\\primeornot.c" 
+gcc -o primeornot.exe "src\\primeornot.o" 
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+09:37:46 **** Incremental Build of configuration Debug for project primeornot ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primeornot.o" "..\\src\\primeornot.c" 
+gcc -o primeornot.exe "src\\primeornot.o" 
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+09:38:51 **** Incremental Build of configuration Debug for project primeornot ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primeornot.o" "..\\src\\primeornot.c" 
+gcc -o primeornot.exe "src\\primeornot.o" 
+Info: Nothing to build for primeornot
+Info: Nothing to build for primeornot
+09:48:23 **** Rebuild of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+09:48:28 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+09:54:48 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+09:55:32 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+..\src\star.c: In function 'main':
+..\src\star.c:23:15: error: expected ';' before 'return'
+   printf("\n")
+               ^
+               ;
+  return EXIT_SUCCESS;
+  ~~~~~~        
+09:56:15 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+Info: Nothing to build for star
+09:59:54 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+10:02:05 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+10:02:19 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+Info: Nothing to build for star
+10:19:57 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+10:34:44 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+10:35:34 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+Info: Nothing to build for star
+Info: Nothing to build for star
+10:42:40 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+10:45:22 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+10:45:55 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+11:01:47 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+11:02:05 **** Incremental Build of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+11:16:55 **** Rebuild of configuration Debug for project multiplication2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiplication2.o" "..\\src\\multiplication2.c" 
+gcc -o multiplication2.exe "src\\multiplication2.o" 
+Info: Nothing to build for multiplication2
+11:17:09 **** Incremental Build of configuration Debug for project multiplication2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiplication2.o" "..\\src\\multiplication2.c" 
+gcc -o multiplication2.exe "src\\multiplication2.o" 
+11:17:38 **** Incremental Build of configuration Debug for project multiplication2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiplication2.o" "..\\src\\multiplication2.c" 
+gcc -o multiplication2.exe "src\\multiplication2.o" 
+Info: Nothing to build for multiplication2
+Info: Nothing to build for multiplication2
+Info: Nothing to build for multiplication2
+11:23:32 **** Rebuild of configuration Debug for project oddsum2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\oddsum2.o" "..\\src\\oddsum2.c" 
+gcc -o oddsum2.exe "src\\oddsum2.o" 
+11:23:39 **** Incremental Build of configuration Debug for project oddsum2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\oddsum2.o" "..\\src\\oddsum2.c" 
+gcc -o oddsum2.exe "src\\oddsum2.o" 
+11:24:37 **** Incremental Build of configuration Debug for project oddsum2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\oddsum2.o" "..\\src\\oddsum2.c" 
+gcc -o oddsum2.exe "src\\oddsum2.o" 
+11:25:33 **** Incremental Build of configuration Debug for project oddsum2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\oddsum2.o" "..\\src\\oddsum2.c" 
+gcc -o oddsum2.exe "src\\oddsum2.o" 
+Info: Nothing to build for oddsum2
+11:26:17 **** Incremental Build of configuration Debug for project oddsum2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\oddsum2.o" "..\\src\\oddsum2.c" 
+gcc -o oddsum2.exe "src\\oddsum2.o" 
+11:36:48 **** Rebuild of configuration Debug for project numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\numbers.o" "..\\src\\numbers.c" 
+gcc -o numbers.exe "src\\numbers.o" 
+11:37:01 **** Incremental Build of configuration Debug for project numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\numbers.o" "..\\src\\numbers.c" 
+gcc -o numbers.exe "src\\numbers.o" 
+11:37:20 **** Incremental Build of configuration Debug for project numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\numbers.o" "..\\src\\numbers.c" 
+gcc -o numbers.exe "src\\numbers.o" 
+11:37:43 **** Incremental Build of configuration Debug for project numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\numbers.o" "..\\src\\numbers.c" 
+gcc -o numbers.exe "src\\numbers.o" 
+16:53:32 **** Rebuild of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+gcc -o array1.exe "src\\array1.o" 
+16:53:43 **** Incremental Build of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+..\src\array1.c: In function 'main':
+..\src\array1.c:16:2: warning: implicit declaration of function 'sebuf'; did you mean 'setbuf'? [-Wimplicit-function-declaration]
+  sebuf(stdout,NULL);
+  ^~~~~
+  setbuf
+..\src\array1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",limit);
+         ~^  ~~~~~
+..\src\array1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+..\src\array1.c:18:2: warning: 'limit' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",limit);
+  ^~~~~~~~~~~~~~~~~
+gcc -o array1.exe "src\\array1.o" 
+src\array1.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\array1\Debug/../src/array1.c:16: undefined reference to `sebuf'
+collect2.exe: error: ld returned 1 exit status
+16:53:49 **** Incremental Build of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -o array1.exe "src\\array1.o" 
+src\array1.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\array1\Debug/../src/array1.c:16: undefined reference to `sebuf'
+collect2.exe: error: ld returned 1 exit status
+16:54:23 **** Incremental Build of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+..\src\array1.c: In function 'main':
+..\src\array1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",limit);
+         ~^  ~~~~~
+..\src\array1.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+..\src\array1.c:18:2: warning: 'limit' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",limit);
+  ^~~~~~~~~~~~~~~~~
+gcc -o array1.exe "src\\array1.o" 
+Info: Nothing to build for array1
+16:54:58 **** Incremental Build of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+gcc -o array1.exe "src\\array1.o" 
+16:56:30 **** Incremental Build of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+gcc -o array1.exe "src\\array1.o" 
+16:58:18 **** Incremental Build of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+gcc -o array1.exe "src\\array1.o" 
+16:59:38 **** Incremental Build of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+gcc -o array1.exe "src\\array1.o" 
+17:00:11 **** Incremental Build of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+gcc -o array1.exe "src\\array1.o" 
+17:00:37 **** Incremental Build of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+gcc -o array1.exe "src\\array1.o" 
+17:25:20 **** Rebuild of configuration Debug for project sumarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sumarray2.o" "..\\src\\sumarray2.c" 
+gcc -o sumarray2.exe "src\\sumarray2.o" 
+Info: Nothing to build for sumarray2
+17:25:31 **** Incremental Build of configuration Debug for project sumarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sumarray2.o" "..\\src\\sumarray2.c" 
+..\src\sumarray2.c: In function 'main':
+..\src\sumarray2.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",limit);
+         ~^  ~~~~~
+..\src\sumarray2.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+..\src\sumarray2.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",a[i]);
+         ~^  ~~~~
+..\src\sumarray2.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+..\src\sumarray2.c:18:2: warning: 'limit' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",limit);
+  ^~~~~~~~~~~~~~~~~
+gcc -o sumarray2.exe "src\\sumarray2.o" 
+Info: Nothing to build for sumarray2
+17:26:09 **** Incremental Build of configuration Debug for project sumarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sumarray2.o" "..\\src\\sumarray2.c" 
+gcc -o sumarray2.exe "src\\sumarray2.o" 
+Info: Nothing to build for sumarray2
+17:28:36 **** Incremental Build of configuration Debug for project sumarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sumarray2.o" "..\\src\\sumarray2.c" 
+gcc -o sumarray2.exe "src\\sumarray2.o" 
+Info: Nothing to build for sumarray2
+Info: Nothing to build for sumarray2
+Info: Nothing to build for sumarray2
+17:30:46 **** Incremental Build of configuration Debug for project sumarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sumarray2.o" "..\\src\\sumarray2.c" 
+gcc -o sumarray2.exe "src\\sumarray2.o" 
+Info: Nothing to build for sumarray2
+18:03:36 **** Rebuild of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+18:03:42 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+..\src\searcharray.c: In function 'main':
+..\src\searcharray.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d",values[i]);
+          ~^  ~~~~~~~~~
+..\src\searcharray.c:21:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+..\src\searcharray.c:25:5: warning: 'searchkey' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if(searchkey==values[i]){
+     ^
+gcc -o searcharray.exe "src\\searcharray.o" 
+18:04:15 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+..\src\searcharray.c: In function 'main':
+..\src\searcharray.c:25:5: warning: 'searchkey' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if(searchkey==values[i]){
+     ^
+gcc -o searcharray.exe "src\\searcharray.o" 
+Info: Nothing to build for searcharray
+18:06:49 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+Info: Nothing to build for searcharray
+18:08:05 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+18:08:33 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+09:36:29 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+09:37:18 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+09:38:20 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+..\src\searcharray.c: In function 'main':
+..\src\searcharray.c:15:35: warning: unused variable 'flag' [-Wunused-variable]
+  int i,limit,values[10],searchkey,flag=0;
+                                   ^~~~
+gcc -o searcharray.exe "src\\searcharray.o" 
+Info: Nothing to build for searcharray
+Info: Nothing to build for searcharray
+09:40:36 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+Info: Nothing to build for searcharray
+Info: Nothing to build for searcharray
+09:44:53 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+09:46:01 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+Info: Nothing to build for searcharray
+Info: Nothing to build for searcharray
+Info: Nothing to build for searcharray
+09:49:00 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+Info: Nothing to build for searcharray
+10:03:32 **** Rebuild of configuration Debug for project arraysearch2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arraysearch2.o" "..\\src\\arraysearch2.c" 
+gcc -o arraysearch2.exe "src\\arraysearch2.o" 
+Info: Nothing to build for arraysearch2
+10:03:55 **** Incremental Build of configuration Debug for project arraysearch2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arraysearch2.o" "..\\src\\arraysearch2.c" 
+gcc -o arraysearch2.exe "src\\arraysearch2.o" 
+Info: Nothing to build for arraysearch2
+Info: Nothing to build for arraysearch2
+10:13:59 **** Incremental Build of configuration Debug for project arraysearch2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arraysearch2.o" "..\\src\\arraysearch2.c" 
+gcc -o arraysearch2.exe "src\\arraysearch2.o" 
+Info: Nothing to build for arraysearch2
+Info: Nothing to build for arraysearch2
+10:18:23 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+10:18:48 **** Incremental Build of configuration Debug for project searcharray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\searcharray.o" "..\\src\\searcharray.c" 
+gcc -o searcharray.exe "src\\searcharray.o" 
+10:20:32 **** Incremental Build of configuration Debug for project arraysearch2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arraysearch2.o" "..\\src\\arraysearch2.c" 
+gcc -o arraysearch2.exe "src\\arraysearch2.o" 
+Info: Nothing to build for arraysearch2
+06:02:15 **** Rebuild of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+06:02:22 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+06:03:18 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+06:11:50 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+06:12:25 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+Info: Nothing to build for sort1
+06:19:38 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+06:20:37 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+06:25:38 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+06:25:46 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file sort1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+06:26:19 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -o sort1.exe "src\\sort1.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file sort1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+06:26:56 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -o sort1.exe "src\\sort1.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file sort1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+06:27:16 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -o sort1.exe "src\\sort1.o" 
+Info: Nothing to build for sort1
+Info: Nothing to build for sort1
+Info: Nothing to build for sort1
+06:58:50 **** Rebuild of configuration Debug for project array3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array3.o" "..\\src\\array3.c" 
+gcc -o array3.exe "src\\array3.o" 
+06:58:59 **** Incremental Build of configuration Debug for project array3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array3.o" "..\\src\\array3.c" 
+gcc -o array3.exe "src\\array3.o" 
+07:00:25 **** Incremental Build of configuration Debug for project array3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array3.o" "..\\src\\array3.c" 
+gcc -o array3.exe "src\\array3.o" 
+07:03:52 **** Incremental Build of configuration Debug for project array3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array3.o" "..\\src\\array3.c" 
+gcc -o array3.exe "src\\array3.o" 
+Info: Nothing to build for array3
+07:09:53 **** Incremental Build of configuration Debug for project array3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array3.o" "..\\src\\array3.c" 
+gcc -o array3.exe "src\\array3.o" 
+07:19:48 **** Rebuild of configuration Debug for project evenarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\evenarray.o" "..\\src\\evenarray.c" 
+gcc -o evenarray.exe "src\\evenarray.o" 
+07:20:04 **** Incremental Build of configuration Debug for project evenarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\evenarray.o" "..\\src\\evenarray.c" 
+..\src\evenarray.c: In function 'main':
+..\src\evenarray.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",limit);
+         ~^  ~~~~~
+..\src\evenarray.c:18:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+..\src\evenarray.c:18:2: warning: 'limit' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",limit);
+  ^~~~~~~~~~~~~~~~~
+gcc -o evenarray.exe "src\\evenarray.o" 
+07:20:40 **** Incremental Build of configuration Debug for project evenarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\evenarray.o" "..\\src\\evenarray.c" 
+gcc -o evenarray.exe "src\\evenarray.o" 
+Info: Nothing to build for evenarray
+Info: Nothing to build for evenarray
+07:46:49 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file sort1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:47:34 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file sort1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:57:42 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -o sort1.exe "src\\sort1.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file sort1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:57:49 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sort1.o" "..\\src\\sort1.c" 
+gcc -o sort1.exe "src\\sort1.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file sort1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:58:05 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -o sort1.exe "src\\sort1.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file sort1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:58:19 **** Incremental Build of configuration Debug for project sort1 ****
+Info: Internal Builder is used for build
+gcc -o sort1.exe "src\\sort1.o" 
+Info: Nothing to build for sort1
+Info: Nothing to build for sort1
+Info: Nothing to build for sort1
+08:18:50 **** Rebuild of configuration Debug for project string1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string1.o" "..\\src\\string1.c" 
+gcc -o string1.exe "src\\string1.o" 
+08:19:07 **** Incremental Build of configuration Debug for project string1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string1.o" "..\\src\\string1.c" 
+gcc -o string1.exe "src\\string1.o" 
+Info: Nothing to build for string1
+Info: Nothing to build for string1
+21:05:19 **** Incremental Build of configuration Debug for project string1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\string1.o" "..\\src\\string1.c" 
+gcc -o string1.exe "src\\string1.o" 
+21:06:25 **** Rebuild of configuration Debug for project sumassignment ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sumassignment.o" "..\\src\\sumassignment.c" 
+gcc -o sumassignment.exe "src\\sumassignment.o" 
+Info: Nothing to build for sumassignment
+Info: Nothing to build for sumassignment
+21:22:11 **** Rebuild of configuration Debug for project star ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\star.o" "..\\src\\star.c" 
+gcc -o star.exe "src\\star.o" 
+Info: Nothing to build for star
+Info: Nothing to build for star
+21:23:31 **** Rebuild of configuration Debug for project interest ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\interest.o" "..\\src\\interest.c" 
+..\src\interest.c: In function 'main':
+..\src\interest.c:22:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d",&u);
+         ~^  ~~
+         %e
+..\src\interest.c:22:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d",&u);
+         ~^  ~~
+         %e
+gcc -o interest.exe "src\\interest.o" 
+21:23:52 **** Rebuild of configuration Debug for project abcd ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\abcd.o" "..\\src\\abcd.c" 
+gcc -o abcd.exe "src\\abcd.o" 
+21:24:39 **** Rebuild of configuration Debug for project mark ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mark.o" "..\\src\\mark.c" 
+gcc -o mark.exe "src\\mark.o" 
+Info: Nothing to build for mark
+21:25:32 **** Rebuild of configuration Debug for project gradeassig ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\gradeassig.o" "..\\src\\gradeassig.c" 
+gcc -o gradeassig.exe "src\\gradeassig.o" 
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+Info: Nothing to build for gradeassig
+21:31:32 **** Rebuild of configuration Debug for project switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\switch.o" "..\\src\\switch.c" 
+gcc -o switch.exe "src\\switch.o" 
+21:33:10 **** Rebuild of configuration Debug for project ifcalculation ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ifcalculation.o" "..\\src\\ifcalculation.c" 
+gcc -o ifcalculation.exe "src\\ifcalculation.o" 
+Info: Nothing to build for ifcalculation
+Info: Nothing to build for ifcalculation
+Info: Nothing to build for ifcalculation
+09:33:28 **** Rebuild of configuration Debug for project array3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array3.o" "..\\src\\array3.c" 
+gcc -o array3.exe "src\\array3.o" 
+09:43:15 **** Rebuild of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiarray2.o" "..\\src\\multiarray2.c" 
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+09:43:24 **** Incremental Build of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiarray2.o" "..\\src\\multiarray2.c" 
+..\src\multiarray2.c: In function 'main':
+..\src\multiarray2.c:23:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d",values[i][j]);
+          ~^  ~~~~~~~~~~~~
+..\src\multiarray2.c:23:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+09:43:52 **** Incremental Build of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiarray2.o" "..\\src\\multiarray2.c" 
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+Info: Nothing to build for multiarray2
+09:46:10 **** Incremental Build of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiarray2.o" "..\\src\\multiarray2.c" 
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file multiarray2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:46:53 **** Incremental Build of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file multiarray2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:47:09 **** Incremental Build of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+Info: Nothing to build for multiarray2
+09:48:31 **** Incremental Build of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiarray2.o" "..\\src\\multiarray2.c" 
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+09:50:29 **** Incremental Build of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiarray2.o" "..\\src\\multiarray2.c" 
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+09:50:54 **** Incremental Build of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiarray2.o" "..\\src\\multiarray2.c" 
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+09:55:16 **** Incremental Build of configuration Debug for project multiarray2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiarray2.o" "..\\src\\multiarray2.c" 
+gcc -o multiarray2.exe "src\\multiarray2.o" 
+10:54:07 **** Rebuild of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+10:54:16 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+..\src\functionnoargret.c: In function 'sum':
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:22:5: error: lvalue required as left operand of assignment
+  sum=a+b;
+     ^
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+  printf("sum is %d",sum);
+                 ~^  ~~~
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+..\src\functionnoargret.c:19:10: warning: unused variable 'c' [-Wunused-variable]
+  int a,b,c;
+          ^
+10:55:09 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+..\src\functionnoargret.c: In function 'sum':
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:22:5: error: lvalue required as left operand of assignment
+  sum=a+b;
+     ^
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+  printf("sum is %d",sum);
+                 ~^  ~~~
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+..\src\functionnoargret.c:19:10: warning: unused variable 'c' [-Wunused-variable]
+  int a,b,c;
+          ^
+10:56:15 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+..\src\functionnoargret.c: In function 'sum':
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:22:5: error: lvalue required as left operand of assignment
+  sum=a+b;
+     ^
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+  printf("sum is %d",sum);
+                 ~^  ~~~
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+..\src\functionnoargret.c:19:10: warning: unused variable 'c' [-Wunused-variable]
+  int a,b,c;
+          ^
+10:56:38 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+..\src\functionnoargret.c: In function 'sum':
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:22:5: error: lvalue required as left operand of assignment
+  sum=a+b;
+     ^
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+  printf("sum is %d",sum);
+                 ~^  ~~~
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+..\src\functionnoargret.c:19:10: warning: unused variable 'c' [-Wunused-variable]
+  int a,b,c;
+          ^
+10:57:05 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+..\src\functionnoargret.c: In function 'sum':
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:21:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+         ~^     ~
+..\src\functionnoargret.c:21:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'int' [-Wformat=]
+  scanf("%d %d",a,b);
+            ~^    ~
+..\src\functionnoargret.c:22:5: error: lvalue required as left operand of assignment
+  sum=a+b;
+     ^
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+  printf("sum is %d",sum);
+                 ~^  ~~~
+..\src\functionnoargret.c:23:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)()' [-Wformat=]
+..\src\functionnoargret.c:19:10: warning: unused variable 'c' [-Wunused-variable]
+  int a,b,c;
+          ^
+10:57:59 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+Info: Nothing to build for functionnoargret
+Info: Nothing to build for functionnoargret
+10:58:43 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file functionnoargret.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:59:05 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file functionnoargret.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:59:20 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file functionnoargret.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:59:46 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file functionnoargret.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:00:24 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file functionnoargret.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:00:36 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+Info: Nothing to build for functionnoargret
+11:01:20 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file functionnoargret.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:01:44 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+Info: Nothing to build for functionnoargret
+Info: Nothing to build for functionnoargret
+11:02:36 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+11:02:55 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file functionnoargret.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:03:15 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file functionnoargret.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:03:31 **** Incremental Build of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+Info: Nothing to build for functionnoargret
+11:58:52 **** Rebuild of configuration Debug for project ithargument ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ithargument.o" "..\\src\\ithargument.c" 
+gcc -o ithargument.exe "src\\ithargument.o" 
+11:59:00 **** Incremental Build of configuration Debug for project ithargument ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ithargument.o" "..\\src\\ithargument.c" 
+..\src\ithargument.c:21:14: error: unknown type name 'num2'; did you mean 'enum'?
+ sum(int num1,num2){
+              ^~~~
+              enum
+12:00:00 **** Incremental Build of configuration Debug for project ithargument ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ithargument.o" "..\\src\\ithargument.c" 
+..\src\ithargument.c:21:14: error: unknown type name 'num2'; did you mean 'enum'?
+ sum(int num1,num2){
+              ^~~~
+              enum
+12:00:30 **** Incremental Build of configuration Debug for project ithargument ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ithargument.o" "..\\src\\ithargument.c" 
+gcc -o ithargument.exe "src\\ithargument.o" 
+Info: Nothing to build for ithargument
+12:01:10 **** Incremental Build of configuration Debug for project ithargument ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ithargument.o" "..\\src\\ithargument.c" 
+gcc -o ithargument.exe "src\\ithargument.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ithargument.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:01:19 **** Incremental Build of configuration Debug for project ithargument ****
+Info: Internal Builder is used for build
+gcc -o ithargument.exe "src\\ithargument.o" 
+Info: Nothing to build for ithargument
+Info: Nothing to build for ithargument
+15:04:21 **** Rebuild of configuration Debug for project argwithreturn ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\argwithreturn.o" "..\\src\\argwithreturn.c" 
+gcc -o argwithreturn.exe "src\\argwithreturn.o" 
+Info: Nothing to build for argwithreturn
+15:06:13 **** Incremental Build of configuration Debug for project argwithreturn ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\argwithreturn.o" "..\\src\\argwithreturn.c" 
+..\src\argwithreturn.c: In function 'main':
+..\src\argwithreturn.c:15:10: warning: variable 'c' set but not used [-Wunused-but-set-variable]
+  int a,b,c;
+          ^
+gcc -o argwithreturn.exe "src\\argwithreturn.o" 
+Info: Nothing to build for argwithreturn
+Info: Nothing to build for argwithreturn
+Info: Nothing to build for argwithreturn
+Info: Nothing to build for argwithreturn
+15:07:42 **** Incremental Build of configuration Debug for project argwithreturn ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\argwithreturn.o" "..\\src\\argwithreturn.c" 
+..\src\argwithreturn.c: In function 'main':
+..\src\argwithreturn.c:15:10: warning: variable 'c' set but not used [-Wunused-but-set-variable]
+  int a,b,c;
+          ^
+gcc -o argwithreturn.exe "src\\argwithreturn.o" 
+Info: Nothing to build for argwithreturn
+15:09:27 **** Incremental Build of configuration Debug for project argwithreturn ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\argwithreturn.o" "..\\src\\argwithreturn.c" 
+gcc -o argwithreturn.exe "src\\argwithreturn.o" 
+Info: Nothing to build for argwithreturn
+Info: Nothing to build for argwithreturn
+10:44:17 **** Rebuild of configuration Debug for project functionnoargret ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functionnoargret.o" "..\\src\\functionnoargret.c" 
+gcc -o functionnoargret.exe "src\\functionnoargret.o" 
+Info: Nothing to build for functionnoargret
+10:58:07 **** Rebuild of configuration Debug for project samp ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\samp.o" "..\\src\\samp.c" 
+gcc -o samp.exe "src\\samp.o" 
+Info: Nothing to build for samp
+10:59:34 **** Incremental Build of configuration Debug for project samp ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\samp.o" "..\\src\\samp.c" 
+..\src\samp.c:24:1: warning: data definition has no type or storage class
+ result=num1*num2;
+ ^~~~~~
+..\src\samp.c:24:1: warning: type defaults to 'int' in declaration of 'result' [-Wimplicit-int]
+..\src\samp.c:24:8: error: 'num1' undeclared here (not in a function)
+ result=num1*num2;
+        ^~~~
+..\src\samp.c:24:13: error: 'num2' undeclared here (not in a function)
+ result=num1*num2;
+             ^~~~
+..\src\samp.c:25:8: error: expected declaration specifiers or '...' before string constant
+ printf("result is:%d",result);
+        ^~~~~~~~~~~~~~
+..\src\samp.c:25:23: error: expected declaration specifiers or '...' before 'result'
+ printf("result is:%d",result);
+                       ^~~~~~
+11:00:51 **** Incremental Build of configuration Debug for project samp ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\samp.o" "..\\src\\samp.c" 
+..\src\samp.c:24:1: warning: data definition has no type or storage class
+ result=num1*num2;
+ ^~~~~~
+..\src\samp.c:24:1: warning: type defaults to 'int' in declaration of 'result' [-Wimplicit-int]
+..\src\samp.c:24:8: error: 'num1' undeclared here (not in a function)
+ result=num1*num2;
+        ^~~~
+..\src\samp.c:24:13: error: 'num2' undeclared here (not in a function)
+ result=num1*num2;
+             ^~~~
+..\src\samp.c:25:8: error: expected declaration specifiers or '...' before string constant
+ printf("result is:%d",result);
+        ^~~~~~~~~~~~~~
+..\src\samp.c:25:23: error: expected declaration specifiers or '...' before 'result'
+ printf("result is:%d",result);
+                       ^~~~~~
+11:01:03 **** Incremental Build of configuration Debug for project samp ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\samp.o" "..\\src\\samp.c" 
+gcc -o samp.exe "src\\samp.o" 
+11:11:07 **** Rebuild of configuration Debug for project sample2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample2.o" "..\\src\\sample2.c" 
+gcc -o sample2.exe "src\\sample2.o" 
+11:11:13 **** Incremental Build of configuration Debug for project sample2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample2.o" "..\\src\\sample2.c" 
+..\src\sample2.c:13:5: error: conflicting types for 'div'
+ int div(int,int);
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+..\src\sample2.c: In function 'main':
+..\src\sample2.c:15:16: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  int num1,num2,result;
+                ^~~~~~
+..\src\sample2.c: At top level:
+..\src\sample2.c:22:5: error: conflicting types for 'div'
+ int div(int n1,int n2){
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+..\src\sample2.c: In function 'div':
+..\src\sample2.c:25:9: error: too few arguments to function 'div'
+  return div();
+         ^~~
+..\src\sample2.c:22:5: note: declared here
+ int div(int n1,int n2){
+     ^~~
+..\src\sample2.c:23:6: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  int res;
+      ^~~
+..\src\sample2.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:11:21 **** Incremental Build of configuration Debug for project sample2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample2.o" "..\\src\\sample2.c" 
+..\src\sample2.c:13:5: error: conflicting types for 'div'
+ int div(int,int);
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+..\src\sample2.c: In function 'main':
+..\src\sample2.c:15:16: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  int num1,num2,result;
+                ^~~~~~
+..\src\sample2.c: At top level:
+..\src\sample2.c:22:5: error: conflicting types for 'div'
+ int div(int n1,int n2){
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+..\src\sample2.c: In function 'div':
+..\src\sample2.c:25:9: error: too few arguments to function 'div'
+  return div();
+         ^~~
+..\src\sample2.c:22:5: note: declared here
+ int div(int n1,int n2){
+     ^~~
+..\src\sample2.c:23:6: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  int res;
+      ^~~
+..\src\sample2.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:13:04 **** Incremental Build of configuration Debug for project sample2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample2.o" "..\\src\\sample2.c" 
+..\src\sample2.c:13:5: error: conflicting types for 'div'
+ int div(int,int);
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+..\src\sample2.c:23:5: error: conflicting types for 'div'
+ int div(int n1,int n2){
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+..\src\sample2.c: In function 'div':
+..\src\sample2.c:26:9: error: too few arguments to function 'div'
+  return div();
+         ^~~
+..\src\sample2.c:23:5: note: declared here
+ int div(int n1,int n2){
+     ^~~
+..\src\sample2.c:24:6: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  int res;
+      ^~~
+..\src\sample2.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:15:26 **** Incremental Build of configuration Debug for project sample2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample2.o" "..\\src\\sample2.c" 
+..\src\sample2.c:13:5: error: conflicting types for 'div'
+ int div(int,int);
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+..\src\sample2.c:23:5: error: conflicting types for 'div'
+ int div(int n1,int n2){
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+..\src\sample2.c: In function 'div':
+..\src\sample2.c:26:9: error: too few arguments to function 'div'
+  return div();
+         ^~~
+..\src\sample2.c:23:5: note: declared here
+ int div(int n1,int n2){
+     ^~~
+..\src\sample2.c:24:6: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  int res;
+      ^~~
+..\src\sample2.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:16:42 **** Incremental Build of configuration Debug for project sample2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample2.o" "..\\src\\sample2.c" 
+..\src\sample2.c:13:5: error: conflicting types for 'div'
+ int div(int,int);
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+..\src\sample2.c:23:5: error: conflicting types for 'div'
+ int div(int n1,int n2){
+     ^~~
+In file included from ..\src\sample2.c:12:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdlib.h:412:17: note: previous declaration of 'div' was here
+   div_t __cdecl div(int _Numerator,int _Denominator);
+                 ^~~
+11:19:42 **** Clean-only build of configuration Debug for project abcd ****
+rm -rf src/abcd.o abcd.exe src/abcd.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:42 **** Clean-only build of configuration Debug for project abcd ****
+11:19:42 **** Clean-only build of configuration Debug for project argwithreturn ****
+rm -rf src/argwithreturn.o argwithreturn.exe src/argwithreturn.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:43 **** Clean-only build of configuration Debug for project argwithreturn ****
+11:19:43 **** Clean-only build of configuration Debug for project array1 ****
+rm -rf src/array1.d src/array1.o array1.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:43 **** Clean-only build of configuration Debug for project array1 ****
+11:19:43 **** Clean-only build of configuration Debug for project array3 ****
+rm -rf src/array3.o array3.exe src/array3.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:43 **** Clean-only build of configuration Debug for project array3 ****
+11:19:43 **** Clean-only build of configuration Debug for project arraysearch2 ****
+rm -rf src/arraysearch2.o src/arraysearch2.d arraysearch2.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:43 **** Clean-only build of configuration Debug for project arraysearch2 ****
+11:19:43 **** Clean-only build of configuration Debug for project display name ****
+rm -rf "src/display name.o" "src/display name.d" "display name.exe" 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:44 **** Clean-only build of configuration Debug for project display name ****
+11:19:44 **** Clean-only build of configuration Debug for project egloop ****
+rm -rf egloop.exe src/egloop.o src/egloop.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:44 **** Clean-only build of configuration Debug for project egloop ****
+11:19:44 **** Clean-only build of configuration Debug for project evenarray ****
+rm -rf src/evenarray.o src/evenarray.d evenarray.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:44 **** Clean-only build of configuration Debug for project evenarray ****
+11:19:44 **** Clean-only build of configuration Debug for project functionnoargret ****
+rm -rf src/functionnoargret.d src/functionnoargret.o functionnoargret.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:44 **** Clean-only build of configuration Debug for project functionnoargret ****
+11:19:44 **** Clean-only build of configuration Debug for project gradeassig ****
+rm -rf gradeassig.exe src/gradeassig.d src/gradeassig.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:44 **** Clean-only build of configuration Debug for project gradeassig ****
+11:19:45 **** Clean-only build of configuration Debug for project graterif ****
+rm -rf src/posorneg.d graterif.exe src/posorneg.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:45 **** Clean-only build of configuration Debug for project graterif ****
+11:19:45 **** Clean-only build of configuration Debug for project ifcalculation ****
+rm -rf src/ifcalculation.d ifcalculation.exe src/ifcalculation.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:45 **** Clean-only build of configuration Debug for project ifcalculation ****
+11:19:45 **** Clean-only build of configuration Debug for project interest ****
+rm -rf src/interest.o interest.exe src/interest.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:45 **** Clean-only build of configuration Debug for project interest ****
+11:19:46 **** Clean-only build of configuration Debug for project ithargument ****
+rm -rf src/ithargument.d ithargument.exe src/ithargument.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:46 **** Clean-only build of configuration Debug for project ithargument ****
+11:19:46 **** Clean-only build of configuration Debug for project mark ****
+rm -rf src/mark.d mark.exe src/mark.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:46 **** Clean-only build of configuration Debug for project mark ****
+11:19:46 **** Clean-only build of configuration Debug for project multiarray2 ****
+rm -rf multiarray2.exe src/multiarray2.o src/multiarray2.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:46 **** Clean-only build of configuration Debug for project multiarray2 ****
+11:19:46 **** Clean-only build of configuration Debug for project multiple ****
+rm -rf multiple.exe src/multiple.o src/multiple.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:47 **** Clean-only build of configuration Debug for project multiple ****
+11:19:47 **** Clean-only build of configuration Debug for project multiplication2 ****
+rm -rf multiplication2.exe src/multiplication2.o src/multiplication2.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:47 **** Clean-only build of configuration Debug for project multiplication2 ****
+11:19:47 **** Clean-only build of configuration Debug for project numbers ****
+rm -rf src/numbers.o numbers.exe src/numbers.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:47 **** Clean-only build of configuration Debug for project numbers ****
+11:19:47 **** Clean-only build of configuration Debug for project oddsum2 ****
+rm -rf src/oddsum2.o src/oddsum2.d oddsum2.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:47 **** Clean-only build of configuration Debug for project oddsum2 ****
+11:19:48 **** Clean-only build of configuration Debug for project primeornot ****
+rm -rf src/primeornot.o primeornot.exe src/primeornot.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:48 **** Clean-only build of configuration Debug for project primeornot ****
+11:19:48 **** Clean-only build of configuration Debug for project samp ****
+rm -rf src/samp.o samp.exe src/samp.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:48 **** Clean-only build of configuration Debug for project samp ****
+11:19:48 **** Clean-only build of configuration Debug for project sample2 ****
+rm -rf src/sample2.d sample2.exe src/sample2.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:48 **** Clean-only build of configuration Debug for project sample2 ****
+11:19:48 **** Clean-only build of configuration Debug for project searcharray ****
+rm -rf src/searcharray.d searcharray.exe src/searcharray.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:48 **** Clean-only build of configuration Debug for project searcharray ****
+11:19:48 **** Clean-only build of configuration Debug for project sort1 ****
+rm -rf src/sort1.o src/sort1.d sort1.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:48 **** Clean-only build of configuration Debug for project sort1 ****
+11:19:49 **** Clean-only build of configuration Debug for project star ****
+rm -rf src/star.o star.exe src/star.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:49 **** Clean-only build of configuration Debug for project star ****
+11:19:49 **** Clean-only build of configuration Debug for project string1 ****
+rm -rf src/string1.d string1.exe src/string1.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:49 **** Clean-only build of configuration Debug for project string1 ****
+11:19:49 **** Clean-only build of configuration Debug for project sumarray2 ****
+rm -rf src/sumarray2.d src/sumarray2.o sumarray2.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:49 **** Clean-only build of configuration Debug for project sumarray2 ****
+11:19:49 **** Clean-only build of configuration Debug for project sumassignment ****
+rm -rf src/sumassignment.o sumassignment.exe src/sumassignment.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:49 **** Clean-only build of configuration Debug for project sumassignment ****
+11:19:50 **** Clean-only build of configuration Debug for project switch ****
+rm -rf src/switch.o switch.exe src/switch.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;\bin;\usr\bin;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/eclipse C//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311;C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse C]
+
+11:19:50 **** Clean-only build of configuration Debug for project switch ****
+11:19:50 **** Rebuild of configuration Debug for project abcd ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\abcd.o" "..\\src\\abcd.c" 
+gcc -o abcd.exe "src\\abcd.o" 
+11:19:51 **** Rebuild of configuration Debug for project argwithreturn ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\argwithreturn.o" "..\\src\\argwithreturn.c" 
+gcc -o argwithreturn.exe "src\\argwithreturn.o" 
+11:19:51 **** Rebuild of configuration Debug for project array1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array1.o" "..\\src\\array1.c" 
+gcc -o array1.exe "src\\array1.o" 
+Command canceled
+11:20:00 **** Rebuild of configuration Debug for project sample2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample2.o" "..\\src\\sample2.c" 
+gcc -o sample2.exe "src\\sample2.o" 
+Info: Nothing to build for sample2
+Info: Nothing to build for sample2
+11:33:41 **** Rebuild of configuration Debug for project lastfunction ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lastfunction.o" "..\\src\\lastfunction.c" 
+gcc -o lastfunction.exe "src\\lastfunction.o" 
+Info: Nothing to build for lastfunction

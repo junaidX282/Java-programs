@@ -1,0 +1,7 @@
+08:09:35 **** Rebuild of configuration Debug for project pass or fail ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pass or fail.o" "..\\src\\pass or fail.c" 
+gcc -o "pass or fail.exe" "src\\pass or fail.o" 
+
+08:09:36 Build Finished. 0 errors, 0 warnings. (took 716ms)
+

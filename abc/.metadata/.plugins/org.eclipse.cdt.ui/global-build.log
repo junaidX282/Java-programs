@@ -1,0 +1,13 @@
+08:46:49 **** Rebuild of configuration Debug for project palindrome ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\palindrome.o" "..\\src\\palindrome.c" 
+gcc -o palindrome.exe "src\\palindrome.o" 
+08:47:02 **** Incremental Build of configuration Debug for project palindrome ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\palindrome.o" "..\\src\\palindrome.c" 
+..\src\palindrome.c: In function 'main':
+..\src\palindrome.c:15:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+gcc -o palindrome.exe "src\\palindrome.o" 
+Info: Nothing to build for palindrome

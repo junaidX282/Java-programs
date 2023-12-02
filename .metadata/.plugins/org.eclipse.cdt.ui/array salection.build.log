@@ -1,0 +1,7 @@
+08:28:54 **** Incremental Build of configuration Debug for project array salection ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array salection.o" "..\\src\\array salection.c" 
+gcc -o "array salection.exe" "src\\array salection.o" 
+
+08:28:54 Build Finished. 0 errors, 0 warnings. (took 639ms)
+

@@ -1,0 +1,26 @@
+17:49:47 **** Incremental Build of configuration Debug for project maths ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\maths.o" "..\\src\\maths.c" 
+..\src\maths.c: In function 'main':
+..\src\maths.c:18:13: error: 'a' undeclared (first use in this function)
+  scanf("%d"&a);
+             ^
+..\src\maths.c:18:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\maths.c:21:11: error: lvalue required as left operand of assignment
+        i*n=m;
+           ^
+..\src\maths.c:22:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+        printf("%d,i * n =%d,m");
+                ~^
+..\src\maths.c:22:27: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+        printf("%d,i * n =%d,m");
+                          ~^
+..\src\maths.c:22:17: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+        printf("%d,i * n =%d,m");
+                ~^
+..\src\maths.c:22:27: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+        printf("%d,i * n =%d,m");
+                          ~^
+
+17:49:47 Build Failed. 2 errors, 4 warnings. (took 256ms)
+

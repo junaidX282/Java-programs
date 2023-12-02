@@ -1,0 +1,7 @@
+08:34:44 **** Rebuild of configuration Debug for project ARRAY2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ARRAY2.o" "..\\src\\ARRAY2.c" 
+gcc -o ARRAY2.exe "src\\ARRAY2.o" 
+
+08:34:45 Build Finished. 0 errors, 0 warnings. (took 657ms)
+

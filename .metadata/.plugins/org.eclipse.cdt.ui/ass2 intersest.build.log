@@ -1,0 +1,18 @@
+22:18:04 **** Incremental Build of configuration Debug for project ass2 intersest ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ass2 intersest.o" "..\\src\\ass2 intersest.c" 
+..\src\ass2 intersest.c: In function 'main':
+..\src\ass2 intersest.c:16:2: warning: implicit declaration of function 'sebuf'; did you mean 'setbuf'? [-Wimplicit-function-declaration]
+  sebuf(stdout,NULL);
+  ^~~~~
+  setbuf
+..\src\ass2 intersest.c:15:6: warning: unused variable 'name' [-Wunused-variable]
+  int name;
+      ^~~~
+gcc -o "ass2 intersest.exe" "src\\ass2 intersest.o" 
+src\ass2 intersest.o: In function `main':
+C:\Users\LENOVO\eclipse-workspace\ass2 intersest\Debug/../src/ass2 intersest.c:16: undefined reference to `sebuf'
+collect2.exe: error: ld returned 1 exit status
+
+22:18:05 Build Failed. 1 errors, 2 warnings. (took 765ms)
+

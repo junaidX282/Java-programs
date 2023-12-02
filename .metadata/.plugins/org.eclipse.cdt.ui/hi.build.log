@@ -1,0 +1,21 @@
+08:25:20 **** Incremental Build of configuration Debug for project hi ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hi.o" "..\\src\\hi.c" 
+..\src\hi.c: In function 'main':
+..\src\hi.c:15:9: warning: passing argument 1 of 'setbuf' from incompatible pointer type [-Wincompatible-pointer-types]
+  setbuf("stdout,NULL");
+         ^~~~~~~~~~~~~
+In file included from ..\src\hi.c:11:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h:685:43: note: expected 'FILE * restrict' {aka 'struct _iobuf * restrict'} but argument is of type 'char *'
+   void __cdecl setbuf(FILE * __restrict__ _File,char * __restrict__ _Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+                       ~~~~~~~~~~~~~~~~~~~~^~~~~
+..\src\hi.c:15:2: error: too few arguments to function 'setbuf'
+  setbuf("stdout,NULL");
+  ^~~~~~
+In file included from ..\src\hi.c:11:
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h:685:16: note: declared here
+   void __cdecl setbuf(FILE * __restrict__ _File,char * __restrict__ _Buffer) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;
+                ^~~~~~
+
+08:25:20 Build Failed. 1 errors, 1 warnings. (took 358ms)
+

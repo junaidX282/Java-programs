@@ -1,0 +1,7 @@
+17:39:40 **** Rebuild of configuration Debug for project ju ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ju.o" "..\\src\\ju.c" 
+gcc -o ju.exe "src\\ju.o" 
+
+17:39:41 Build Finished. 0 errors, 0 warnings. (took 551ms)
+

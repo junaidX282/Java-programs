@@ -1,0 +1,7 @@
+08:09:35 **** Rebuild of configuration Debug for project new switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\new switch.o" "..\\src\\new switch.c" 
+gcc -o "new switch.exe" "src\\new switch.o" 
+
+08:09:35 Build Finished. 0 errors, 0 warnings. (took 524ms)
+

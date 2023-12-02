@@ -1,0 +1,7 @@
+08:32:45 **** Rebuild of configuration Debug for project sum array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sum array.o" "..\\src\\sum array.c" 
+gcc -o "sum array.exe" "src\\sum array.o" 
+
+08:32:45 Build Finished. 0 errors, 0 warnings. (took 636ms)
+

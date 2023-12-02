@@ -1,0 +1,17 @@
+13:02:58 **** Rebuild of configuration Debug for project new loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\new loop.o" "..\\src\\new loop.c" 
+..\src\new loop.c: In function 'main':
+..\src\new loop.c:27:14: error: 'o' undeclared (first use in this function)
+     if(flag==o){
+              ^
+..\src\new loop.c:27:14: note: each undeclared identifier is reported only once for each function it appears in
+..\src\new loop.c:31:35: error: expected ';' before '}' token
+      printf("number is not prime")
+                                   ^
+                                   ;
+     }
+     ~                              
+
+13:02:58 Build Failed. 2 errors, 0 warnings. (took 327ms)
+

@@ -1,0 +1,12 @@
+23:28:46 **** Incremental Build of configuration Debug for project array selction ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array selction.o" "..\\src\\array selction.c" 
+..\src\array selction.c: In function 'main':
+..\src\array selction.c:28:18: error: expected ';' before ']' token
+     limit[j]=temp];
+                  ^
+                  ;
+..\src\array selction.c:28:18: error: expected statement before ']' token
+
+23:28:46 Build Failed. 2 errors, 0 warnings. (took 197ms)
+
